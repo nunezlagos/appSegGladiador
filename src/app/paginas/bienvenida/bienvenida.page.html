@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Swiper</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <swiper-container (slidechange)="swiperSlideChange($event)" [loop]="true" [pagination]="true" >
+    <swiper-slide class="fondo">
+      <h1>Slide 1</h1>
+      <!-- Otro contenido si es necesario -->
+    </swiper-slide>
+    <swiper-slide class="fondo">
+      <h1>Slide 2</h1>
+      <!-- Otro contenido si es necesario -->
+    </swiper-slide>
+    <swiper-slide class="fondo">
+      <h1>Slide 3</h1>
+      <!-- Otro contenido si es necesario -->
+    </swiper-slide>
+  </swiper-container>
+  <!-- Botón flotante "Comenzar" -->
+  <button class="start-button" (click)="comenzar()">Comenzar</button>
+
+
+</ion-content>

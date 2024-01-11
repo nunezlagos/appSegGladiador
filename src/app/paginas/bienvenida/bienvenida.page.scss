@@ -1,0 +1,30 @@
+
+
+/* Agrega estilos CSS para configurar el fondo del swiper-container */
+.fondo {
+   
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-jbvtph5fki1RE446aXJhNgdh5aRfo3dcEHrjVx7zUjMei52gMqJJLUllx0PHEQrok4&usqp=CAU') no-repeat center center;
+    background-size: contain; /* Ajusta el tamaño de fondo para contener toda la imagen sin distorsionarla */
+    color: white; /* ajustar color */
+    text-align: center;
+    display: inline-table;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  
+  .start-button {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(224, 213, 213, 0.507); /* Semi-transparente blanco */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none; /* Opcional: para quitar el borde predeterminado del botón */
+}
+
+  
+  

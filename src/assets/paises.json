@@ -1,0 +1,86 @@
+{
+    "paises": [
+      {
+        "nombre": "Argentina",
+        "prefijos": [
+          { "codigo": "+54", "selected": false },
+          { "codigo": "+549", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Brasil",
+        "prefijos": [
+          { "codigo": "+55", "selected": false }
+        ]
+      },
+      {
+        "nombre": "México",
+        "prefijos": [
+          { "codigo": "+52", "selected": false },
+          { "codigo": "+521", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Colombia",
+        "prefijos": [
+          { "codigo": "+57", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Chile",
+        "prefijos": [
+          { "codigo": "+56", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Perú",
+        "prefijos": [
+          { "codigo": "+51", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Ecuador",
+        "prefijos": [
+          { "codigo": "+593", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Venezuela",
+        "prefijos": [
+          { "codigo": "+58", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Bolivia",
+        "prefijos": [
+          { "codigo": "+591", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Paraguay",
+        "prefijos": [
+          { "codigo": "+595", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Uruguay",
+        "prefijos": [
+          { "codigo": "+598", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Guatemala",
+        "prefijos": [
+          { "codigo": "+502", "selected": false }
+        ]
+      },
+      {
+        "nombre": "Honduras",
+        "prefijos": [
+          { "codigo": "+504", "selected": false }
+        ]
+      }
+      
+    ]
+  }
+  

@@ -1,0 +1,64 @@
+<ion-content >
+  <div style="padding-left: 60px; padding-right: 60px;">
+  <ion-header collapse="condense">
+  </ion-header>
+  <h1 style="text-align: center;">Bienvenido</h1>
+  <p style="text-align: center; ">  <br> Ingrese su código de país y número de celular</p>
+
+  <div class="acordeon">
+    <div class="acordeon-titulo" (click)="toggleGroup(null)">
+      {{ selectedCountry ? selectedCountry : 'Seleccione su país' }}
+      <ion-icon slot="end" [name]="acordeonExpanded ? 'chevron-up' : 'chevron-down'"></ion-icon>
+    </div>
+    
+
+
+    
+    <div class="acordeon-contenido" [hidden]="!acordeonExpanded">
+      <div class="lista-paises" *ngFor="let pais of paises" (click)="selectCountry(pais)">
+        {{ pais.nombre }}
+      </div>
+         
+    </div>
+  </div>
+<div>
+
+  
+    <div class="input-container" style="display: none;">
+      <!-- Input oculto para almacenar el número completo -->
+      <ion-input
+        [(ngModel)]="numeroCompleto"
+        [readonly]="true"
+      ></ion-input>
+    </div>
+    
+    <div class="input-container">
+      <ion-input
+        placeholder="+999"
+        [(ngModel)]="selectedPrefix"
+        [(ngModel)]="numeroPrefix"
+        [readonly]="acordeonExpanded"
+        style="max-width: 80px; pointer-events: none;"
+      ></ion-input>
+      <ion-input
+        placeholder="Ingrese su número"
+        class="custom"
+        helperText="Ingrese un número válido"
+        [readonly]="acordeonExpanded"
+        [(ngModel)]="numeroCelular"
+        (ionChange)="actualizarNumeroCompleto()"
+      ></ion-input>
+    </div>
+    
+    <!-- Muestra el número completo -->
+  
+<button class="start-button" (click)="mostrarPopup()">Siguiente</button>
+
+
+</div>
+
+</div>
+
+  <!-- Resto de tu contenido aquí -->
+
+</ion-content>

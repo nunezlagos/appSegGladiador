@@ -1,0 +1,72 @@
+deon {
+    border: 1px solid #ccc;
+    margin: 5px;
+  }
+  
+  .acordeon-titulo {
+    padding: 10px;
+    background-color: rgba(241, 241, 241, 0.87);
+    cursor: pointer;
+    
+    border: 0.5px solid #474545; /* Agrega un borde sólido con color gris claro alrededor de la lista */
+    border-radius: 5px; /* Agrega esquinas redondeadas al contenedor */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .acordeon-contenido {
+    padding: 10px;
+    border: 1px solid #817d7dc7; /* Agrega un borde sólido con color gris claro */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+  }
+  
+  
+
+  ion-input.custom {
+    --background: white;
+    --color: #1d1a1a;
+    --placeholder-color: #6d6767;
+    --placeholder-opacity: 0.8;
+  
+    --padding-bottom: 10px;
+    --padding-end: 10px;
+    --padding-start: 10px;
+    --padding-top: 10px;
+  }
+
+  .input-container {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  ion-input {
+    flex: 1; /* Ocupa todo el espacio disponible en el contenedor flex */
+    
+  }
+  
+
+  .start-button {
+    position: fixed;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(240, 144, 19, 0.89); /* Semi-transparente blanco */
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none; /* Opcional: para quitar el borde predeterminado del botón */
+}
+
+.lista-paises {
+    border: 0.5px solid #ccc; /* Agrega un borde sólido con color gris claro alrededor de la lista */
+    border-radius: 5px; /* Agrega esquinas redondeadas al contenedor */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+  
+
+  
