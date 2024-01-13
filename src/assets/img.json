@@ -1,0 +1,23 @@
+{
+    "urlImg": [
+      {
+        "nombre": "Bienvenida1",
+        "url": [
+        "https://img.freepik.com/fotos-premium/concepto-seguridad-cibernetica-inicio-sesion-seguridad-informacion-identificacion-usuario-cifrado-acceso-seguro-internet-seguridad-cibernetica-acceso-seguro-informacion-personal-usuarios_184421-798.jpg?w=740"
+        ] 
+    },
+    {
+        "nombre": "Bienvenida2",
+        "url": [
+        "https://img.freepik.com/foto-gratis/tecnologia-seguridad-cctv-icono-candado-remezcla-digital_53876-104935.jpg?w=740&t=st=1705103047~exp=1705103647~hmac=91e5f790e5dd4cec767f1da89f7323fd5e8fef928d41ea9a84caf3af8be7b61f"
+        ] 
+    },
+    {
+        "nombre": "Bienvenida3",
+        "url": [
+        "https://www.freepik.es/foto-gratis/retrato-guardia-seguridad-masculino-estacion-radio_41554735.htm#query=seguridad&position=46&from_view=keyword&track=sph&uuid=f621a3f1-1bb6-48f8-87b7-7b52a6331b6a"
+        ] 
+    }
+    ]
+}
+

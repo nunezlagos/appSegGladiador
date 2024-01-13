@@ -27,6 +27,8 @@ const routes: Routes = [
     path: 'crea-pin',
     loadChildren: () => import('./paginas/crea-pin/crea-pin.module').then( m => m.CreaPinPageModule)
   },
+
+  // ... otras rutas
   
 ];
 

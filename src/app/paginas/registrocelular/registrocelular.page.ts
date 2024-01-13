@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AlertController } from '@ionic/angular';
+
 interface Pais {
   nombre: string;
   prefijos: { codigo: string; selected: boolean }[];

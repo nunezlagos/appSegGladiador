@@ -7,7 +7,7 @@ deon {
     padding: 10px;
     background-color: rgba(241, 241, 241, 0.87);
     cursor: pointer;
-    
+    color:#000000;
     border: 0.5px solid #474545; /* Agrega un borde sólido con color gris claro alrededor de la lista */
     border-radius: 5px; /* Agrega esquinas redondeadas al contenedor */
     text-align: center;
@@ -17,8 +17,8 @@ deon {
   
   .acordeon-contenido {
     padding: 10px;
-    border: 1px solid #817d7dc7; /* Agrega un borde sólido con color gris claro */
-    border-radius: 5px; /* Agrega esquinas redondeadas */
+    border: 1px solid #02020200; /* Agrega un borde sólido con color gris claro */
+    border-radius: 50px; /* Agrega esquinas redondeadas */
   }
   
   
@@ -26,7 +26,7 @@ deon {
   ion-input.custom {
     --background: white;
     --color: #1d1a1a;
-    --placeholder-color: #6d6767;
+    --placeholder-color: #615c5c;
     --placeholder-opacity: 0.8;
   
     --padding-bottom: 10px;
@@ -39,9 +39,13 @@ deon {
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 10%;
+    
   }
   
   ion-input {
+    
     flex: 1; /* Ocupa todo el espacio disponible en el contenedor flex */
     
   }
@@ -61,10 +65,11 @@ deon {
 
 .lista-paises {
     border: 0.5px solid #ccc; /* Agrega un borde sólido con color gris claro alrededor de la lista */
-    border-radius: 5px; /* Agrega esquinas redondeadas al contenedor */
+    border-radius: 15px; /* Agrega esquinas redondeadas al contenedor */
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+
 
 }
   

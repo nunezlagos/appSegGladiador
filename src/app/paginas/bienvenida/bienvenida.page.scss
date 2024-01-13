@@ -1,7 +1,28 @@
 
 
 /* Agrega estilos CSS para configurar el fondo del swiper-container */
-.fondo {
+.fondo1 {
+   
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-jbvtph5fki1RE446aXJhNgdh5aRfo3dcEHrjVx7zUjMei52gMqJJLUllx0PHEQrok4&usqp=CAU') no-repeat center center;
+    background-size: contain; /* Ajusta el tamaño de fondo para contener toda la imagen sin distorsionarla */
+    color: white; /* ajustar color */
+    text-align: center;
+    display: inline-table;
+    align-items: center;
+    justify-content: center;
+  }
+  .fondo2 {
+   
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-jbvtph5fki1RE446aXJhNgdh5aRfo3dcEHrjVx7zUjMei52gMqJJLUllx0PHEQrok4&usqp=CAU') no-repeat center center;
+    background-size: contain; /* Ajusta el tamaño de fondo para contener toda la imagen sin distorsionarla */
+    color: white; /* ajustar color */
+    text-align: center;
+    display: inline-table;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fondo3 {
    
     background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB-jbvtph5fki1RE446aXJhNgdh5aRfo3dcEHrjVx7zUjMei52gMqJJLUllx0PHEQrok4&usqp=CAU') no-repeat center center;
     background-size: contain; /* Ajusta el tamaño de fondo para contener toda la imagen sin distorsionarla */
