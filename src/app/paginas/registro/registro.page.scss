@@ -1,26 +1,58 @@
 ion-input.custom {
-    --background: rgba(218, 212, 212, 0.705);
-    --color: #1d1a1a;
-    --placeholder-color: #6d6767;
-    --placeholder-opacity: 0.8;
-  
-    --padding-bottom: 10px;
-    --padding-end: 10px;
-    --padding-start: 10px;
-    --padding-top: 10px;
-    border-radius: 1px;
-    border-color: black;
-    
-  }
+  --background: white;
+  --color: #1d1a1a;
+  --placeholder-color: #615c5c;
+  --placeholder-opacity: 0.8;
 
-  .start-button {
-    position: fixed;
-    top: 500px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(240, 144, 19, 0.89); /* Semi-transparente blanco */
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    border: none; /* Opcional: para quitar el borde predeterminado del botón */
+  --padding-bottom: 10px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --padding-top: 10px;
+  text-align: center; // placeholder in center
+}
+
+.input-container {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-radius: 10%;
+  justify-content: center;
+  
+  
+}
+
+ion-input {
+  
+  flex: 1; /* Ocupa todo el espacio disponible en el contenedor flex */
+  
+}
+
+
+.start-button {
+  position: fixed;
+  top: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(240, 144, 19, 0.89); /* Semi-transparente blanco */
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none; /* Opcional: para quitar el borde predeterminado del botón */
+  
+}
+
+
+.pd-input {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.espaciado{
+  padding-bottom: 15px;
+}
+
+
+p{
+  text-align: center;
 }
