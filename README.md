@@ -1,1 +1,1 @@
-aplicacion de registro via Ionic
+aplicacion de registro via Ionic.
